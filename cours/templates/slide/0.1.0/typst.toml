@@ -1,0 +1,7 @@
+[package]
+name = "slide"
+version = "0.1.0"
+entrypoint = "src/slide.typ"
+authors = ["RV"]
+description = "A simple Typst package for managing localized text."
+license = "MIT" # Or choose another appropriate license

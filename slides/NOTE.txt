@@ -1,0 +1,2 @@
+Avant d'executer le script, changer la source du module dans le fichier toml pour ne pas avoir à modifie les sources individuellement !
+voir C:\Users\wendl\AppData\Roaming\typst\packages\local\cours\0.1.0

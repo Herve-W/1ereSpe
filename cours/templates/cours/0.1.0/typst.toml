@@ -1,0 +1,7 @@
+[package]
+name = "cours"
+version = "0.1.0"
+entrypoint = "src/cours.typ"
+authors = ["RV"]
+description = "template de cours mais attention #img ne fonctionne qu'avec le template dans le répertoire courant"
+license = "MIT" # Or choose another appropriate license

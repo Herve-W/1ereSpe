@@ -1,0 +1,3 @@
+#import "@local/activite:0.1.0": *
+#show: (doc) => config(doc,nbr:1)
+$body$

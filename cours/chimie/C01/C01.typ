@@ -75,11 +75,10 @@ où n#sub[soluté] est la quantité de matière du soluté (mol) , V#sub[solutio
 
 - La couleur perçue est la couleur #strong[complémentaire] de celle qui est absorbée. (couleur opposée sur le cercle chromatique)
 
-- #strong[L’absorbance] #strong[A] est une grandeur sans unité qui mesure l’absorption de la lumière par une solution. Elle est mesurée avec un. Spectrophotomètre.
-
-#img("./media/image2.png",width:75%,text:"spectre d'un colorant")
+- #strong[L’absorbance] #strong[A] est une grandeur sans unité qui mesure l’absorption de la lumière par une solution. Elle est mesurée avec un spectrophotomètre.
 
 - Le #strong[spectre] d’absorption d’une espèce est une représentation graphique de l’absorbance de cette espèce en fonction de la longueur d’onde.
+#img("./media/image2.png",width:75%,text:"spectre d'un colorant")
 
 === Loi de Beer-Lambert.
 

@@ -1,5 +1,4 @@
 
-// #import "modele.typ": *
 #import "@local/cours:0.1.0" :*
 #show: (doc) => config(doc,chap:[Évolution des quantités de matière lors d’une transformation],nbr:3,type:"C")
 

@@ -1,4 +1,3 @@
-
 #import "@local/cours:0.1.0" :*
 #show: (doc) => config(doc,type:"P",chap:[Interactions fondamentales et notion de champ],nbr:1)
 

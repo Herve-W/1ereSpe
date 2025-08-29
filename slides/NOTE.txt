@@ -1,2 +1,5 @@
-Avant d'executer le script, changer la source du module dans le fichier toml pour ne pas avoir à modifie les sources individuellement !
+Avec VScode modifier #import("@local/cours:0.1.0") en  #import("@local/slides:0.1.0")
+ctrl maj f pour une recherche globale
+
+Sinon avant d'executer le script, changer la source du module dans le fichier toml pour ne pas avoir à modifie les sources individuellement !
 voir C:\Users\wendl\AppData\Roaming\typst\packages\local\cours\0.1.0

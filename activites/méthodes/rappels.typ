@@ -1,12 +1,12 @@
 #import "@local/activite:0.1.0" :*
-#show: (doc) => config(doc,chap:[Calculer avec des grandeurs physiques.],preambule: false,type:"Rappels ", nbr:1)
+#show: (doc) => config(doc,chap:[Calculer avec des grandeurs physiques et utiliser sa calculette.],preambule: false,type:"Rappels ", nbr:1)
 #set text(10pt)
 #let dots = (nbr:20) => { 
   let s
   for i in range(nbr) {
     s = s+". "}
   [#s]}
-#set text(10pt)
+#set text(9pt)
 
 //----------------------------------
 
@@ -82,6 +82,12 @@
       [], table.cell(align: center)[10#super[\-9];], table.cell(align: center)[10#super[\-6];], table.cell(align: center)[10#super[\-3];], table.cell(align: center)[10#super[3];], table.cell(align: center)[10#super[6];], table.cell(align: center)[10#super[9];],
     )
     )
+
+    *Mode scientifique de la calculette:*
+    #set enum(numbering: "1)")
+    + Appuyer sur #box(image("./media/image31.png",height:1.25em)) et choisir SCI puis #box(image("./media/image4.png",height:1.2em)) pour sortir. 
+    + Dans la ligne FLOTTANT choisir le nombre de décimales pour l’arrondi #box(image("./media/image21.png"))
+    + Appuyer sur #box(image("./media/image51.png",height:1.25em))
 ]
 
 #exo("Utilisation des puissances de 10")[
@@ -111,5 +117,11 @@ Par exemple, une mesure de distance de 1,300 m est plus précise qu’une mesure
 + $3,45678 times 5.2 =$ #dots() 
 + $4,875 " / " 2,5697 =$ #dots()
 + #num("2,458e-3") / 1,842 = #dots()
-
 ]
+
+*#emoji.warning ATTENTION*
+- En devoir et en évaluation votre calculette doit être en mode examen.
+- Il faut savoir basculer votre calculette en mode examen et en sortir.
+
+ #show link: underline
+ #link("https://education.ti.com/fr/ressources/mode-examen/mode-examen-83premiumce")

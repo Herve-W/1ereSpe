@@ -35,7 +35,7 @@ avec CLI en utilisant les variables "nbr" et "matiere" (via sys.input)
     else if (matiere == "chimie") {chap = "C0"}
     chap = chap+str(nbr)
     include "../../cours/"+matiere+"/"+chap+"/"+chap+".typ"
-    include "../../activites/"+matiere+"/"+chap+"/Act"+chap+".typ"
+    //include "../../activites/"+matiere+"/"+chap+"/Act"+chap+".typ"
 }
 
 #let nbr = int(sys.inputs.nbr)
